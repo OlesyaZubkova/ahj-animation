@@ -1,0 +1,32 @@
+.text {
+    padding: 15px;
+    border-radius: .3rem;
+    margin: 10px auto ;
+    width: 400px;
+    max-height: 0;
+    border: 1px solid #d4d4d400;
+    transition: max-height 1s ease-out, border-color 1s ease-out;
+    overflow: hidden;
+}
+
+#collapse-btn {
+    padding: 10px;
+    margin: 0 auto;
+    display: block;
+    font-size: 1rem;
+    background-color: #dc3545;
+    color: #ffffff;
+    border-radius: .3rem;
+    border: none;
+    cursor: pointer;
+}
+
+#collapse-btn:hover {
+    background-color: #ad2f3b;
+}
+
+.active {
+    display: block;
+    border: 1px #d3d9d1 solid;
+    max-height: 400px;
+}
